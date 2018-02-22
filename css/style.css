@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  
+  color: red;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column-container {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+.column-container .column {
+  text-align: left;
+  background-color: lightgray;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 2rem;
+  min-width: 350px;
+  min-height: 450px;
+  color: black;
+}
+.column-container .column .column-card-list {
+  min-height: 200px;
+}
+.column-container .column ul {
+  list-style-type: none;
+  padding: 0;
+  display: block;
+}
+.column-container .column ul li {
+  display: block;
+}
+.column-container .column p {
+
+  display: inline-block;
+  margin-right: 10px;
+}
+.column-container .column h2 {
+  display: inline-block;
+  line-height: 20px;
+}
+.column-container .column button {
+  
+  float: right;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.column-container .column button .btn-delete {
+  float: right;
+  margin-top: 2px;
+}
+.column-container .column .card-placeholder {
+  border: #f1c40f 1px dashed;
+  min-height: 2rem;
+}
+
+

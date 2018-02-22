@@ -19,7 +19,7 @@ $(function() {
     
         this.id = randomString();
         this.name = name;
-        this.element = createColumn();
+        this.$element = createColumn();
 
 
         function createColumn() {
@@ -47,7 +47,7 @@ $(function() {
         // RETURN OF CREATED COLUMN
         return $column;   
     }
-
+    }
     Column.prototype = {
         addCard: function(card) {
           this.$element.children('ul').append(card.$element);
