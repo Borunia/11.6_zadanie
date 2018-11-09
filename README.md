@@ -1,1 +1,3 @@
-# 11.6_zadanie
+Kanban Board
+
+https://pawelborkowski.github.io/Kanban_Board/.
